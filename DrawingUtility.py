@@ -424,6 +424,7 @@ class DrawingCanvas:
         self.FPS = int(newFPS)
     
     def reset(self, resetMode=ResetModes.Command):
+        self.changeGridView()
         self.playing = False
         self.traverser.clear()
         self.speculum.clear()
