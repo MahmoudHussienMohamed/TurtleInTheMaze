@@ -44,6 +44,7 @@ Algorithms = {
     "A* (A-Star)"          : AStar, 
     "Bellman-Ford"         : BellmanFord, 
     "Floyd-Warshall"       : FloydWarshall, 
+    "Bidirectional Search" : BidirectionalSearch, 
 }
 
 class Window(Tk):
